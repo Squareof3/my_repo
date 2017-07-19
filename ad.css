@@ -1,0 +1,139 @@
+* {
+	text-align: center;
+	} 
+	
+
+/**********Section**********************/
+section {
+	display: inline-block;
+	width: 100%;;
+	}
+	
+#home { 
+	margin: 0;
+	clear: both;
+	background-repeat: no-repeat;
+    background-size: 100% 70%;
+	background-image: url("https://images8.alphacoders.com/511/511810.jpg"); 
+    background-attachment: fixed;
+    padding: 1em 0 2em 0;
+	}
+	
+
+	
+.header {
+	margin: 0;
+	margin: 2em;
+    background-color: #ffffff;
+    opacity: 0.6;
+    padding: .25em 0 .5em 0;
+	}
+
+.about {
+    background-color: white;
+	float: right;
+	width: 40%;
+	text-align: center;
+	margin-right: 3em;
+	}
+
+.video {
+	float: left;
+	margin-top: 2em;
+	margin-left: 3em;
+	}
+.photo {
+    float: left;
+    margin-top: inherit;
+    margin-left: inherit
+}
+iframe {
+	width: 560px;
+	height: 315px;
+	}
+
+/*********** Section end ****************/
+
+	
+body{ 
+	font-family: Times New Roman;
+	overflow: auto;
+	background-color: #35465c;
+	margin: 0;
+	color: white;
+	}
+	
+h2 {
+	color: black;
+	font-size: 2.5em;
+	}
+	
+h3{
+	color: black;
+	}
+	
+h1 { 
+	color: black;
+	margin-top: -1em;
+	}
+	
+header { 
+	font-family: Copperplate;
+	color: brown;
+	margin-left: 2em;
+	margin-top: .5em;
+	float: left;
+	}
+
+span {
+	font-family: Copperplate;
+	color: brown;
+	}
+	
+.about h1 {
+    position: relative;
+    padding-top: 2em;
+    margin-bottom: 0;
+	}
+
+p {
+	text-align: left;
+	font-size: 1em;
+	color: #000000;
+	}
+	
+footer {
+	font-size: .025em;
+	color: #c0dfd9;
+	clear: both;
+	}
+	
+a {
+	text-decoration: none;
+	}
+
+/************* Group Names **************/
+.group {
+	float: right;
+	font-size: small;
+	}
+
+.group ul {
+	list-style-type:none;
+	text-align:center;
+	}
+
+.group li{
+	display:inline;
+	margin: 0 3.5em 0 2.5em;
+}
+ 
+.group li a{
+	color: black;
+	text-decoration: none;
+	}
+
+.group li a:hover {
+	color: black;
+    transition-duration: 0.6s;
+	}
